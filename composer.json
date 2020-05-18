@@ -1,0 +1,24 @@
+{
+    "name": "nikolay/patterns",
+    "license": ["MIT"],
+    "authors": [
+        {
+            "name": "Nikolay Savchuk",
+            "email": "savchuk.nikolay@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "psr/http-message": "^1.0",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+        "psr-4": {
+            "DesignPatterns\\": "src/DesignPatterns/",
+            "DesignPatternsTest\\": "tests/DesignPatternsTest/"
+        }
+    }
+}
